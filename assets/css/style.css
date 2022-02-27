@@ -1,0 +1,695 @@
+.buttons {
+    height: 60px;
+    color: #fff;
+    background: linear-gradient(180deg, #FFA992 0%, #FF7852 100%);
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
+}
+
+.no_decor_links {
+    list-style-type: none;
+}
+
+.no_decor_text {
+    text-decoration: none;
+}
+
+.font_N6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.font_N7 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.font_N8 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.font_Q4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.font_Q7 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.font_size_18 {
+    font-size: 18px;
+}
+
+.font_size_20 {
+    font-size: 20px;
+}
+
+.font_size_22 {
+    font-size: 22px;
+}
+
+.font_size_24 {
+    font-size: 24px;
+}
+
+.font_size_26 {
+    font-size: 26px;
+}
+
+.font_size_50 {
+    font-size: 50px;
+}
+
+.font_size_64 {
+    font-size: 64px;
+}
+
+.font_size_100 {
+    font-size: 100px;
+}
+
+.color_white {
+    color: #fff;
+}
+
+.color_grey {
+    color: #707283;
+}
+
+.color_darckblue {
+    color: #242851;
+}
+
+.color_peach {
+    color: #FF7751;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 2fr 9fr 1fr;
+    max-width: 1920px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #FFF8F5;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-area: 1/2/2/3;
+}
+
+.about_vetcare {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.hd_logo {
+    grid-area: 1/1/2/2;
+    justify-self: start;
+    margin-left: 50px;
+}
+
+.hd_nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-area: 1/2/2/3;
+    margin-left: 30px;
+}
+
+.but_phone {
+    width: 228px;
+    grid-area: 1/3/2/4;
+    justify-self: center;
+}
+
+.hd_content {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 1720px;
+    height: 780px;
+}
+
+.yll_side_ball {
+    grid-area: 1/1/2/2;
+    align-self: center;
+}
+
+.hd_title {
+    grid-area: 1/2/3/6;
+    margin-top: 12%;
+}
+
+.hd_text {
+    grid-area: 4/2/5/5;
+    margin-top: 9%;
+    line-height: 40px;
+}
+
+.Service {
+    width: 188px;
+    grid-area: 5/2/6/3;
+}
+
+.Appointment {
+    width: 228px;
+    grid-area: 5/3/6/4;
+    margin-left: 20px;
+    background: linear-gradient(180deg, #C3E48F 0%, #8EC637 65%);
+    box-shadow: 0px 10px 25px rgba(125, 181, 35, 0.3);
+}
+
+.d_ball {
+    z-index: 8;
+    grid-area: 3/5/4/6;
+    align-self: end;
+
+}
+
+.balls_1 {
+    z-index: 8;
+    grid-area: 1/8/2/9;
+    align-self: end;
+    justify-self: end;
+}
+
+.hd_blue_spring {
+    z-index: 8;
+    grid-area: 4/9/5/10;
+}
+
+.bg_ellipse_1,
+.shiba_1 {
+    grid-area: 1/5/6/9;
+    justify-self: center;
+    align-self: center;
+}
+
+.bg_ellipse_1 {
+    z-index: 1;
+}
+
+.shiba_1 {
+    z-index: 5;
+}
+
+.content {
+    grid-area: 2/2/3/3;
+}
+
+.what_we_do_artcl,
+.our_team,
+.professional_pet_care {
+    display: grid;
+    margin-left: 80px;
+    margin-right: 190px;
+    background-color: #FFECE4;
+    border-radius: 50px;
+}
+
+.what_we_do_artcl {
+    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    align-items: center;
+    gap: 30px;
+    height: 760px;
+    margin-top: 50px;
+}
+
+.title_care {
+    grid-area: 1/3/2/5;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.title_what_we_do {
+    grid-area: 1/3/2/5;
+    margin-bottom: -20%;
+    text-align: center;
+}
+
+.section_bone,
+.section_vet,
+.section_dog,
+.section_vaccine {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.section_bone {
+    grid-area: 2/2/3/3;
+}
+
+.section_vet {
+    grid-area: 2/3/3/4;
+    background: linear-gradient(180deg, #FFA992 0%, #FF7852 100%);
+}
+
+.section_dog {
+    grid-area: 2/4/3/5;
+    background-color: #fff;
+}
+
+.section_vaccine {
+    grid-area: 2/5/3/6;
+}
+
+.icon_bone,
+.icon_vet,
+.icon_dog,
+.icon_vaccine {
+    padding: 28px;
+}
+
+.bg_for_grafic_icons {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bg_bone {
+    background: linear-gradient(180deg, #B8DEFF 0%, #1D97FF 100%);
+    box-shadow: 0px 12px 10px rgba(72, 171, 255, 0.25);
+}
+
+.bg_vet {
+    background: #ffffff;
+    box-shadow: 0px 12px 10px rgba(229, 228, 226, 0.3);
+}
+
+.bg_dog {
+    background: linear-gradient(180deg, #FFE4AA 0%, #FF9C07 100%);
+    box-shadow: 0px 12px 10px rgba(250, 168, 45, 0.3);
+}
+
+.bg_vaccine {
+    background: linear-gradient(180deg, #AFE6EB 0%, #36BECB 100%);
+    box-shadow: 0px 12px 10px rgba(17, 199, 217, 0.3);
+}
+
+.title_icons {
+    margin-bottom: 0;
+}
+
+.icon_text {
+    line-height: 126%;
+    text-align: center;
+}
+
+.experience_vet_clinic {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 3fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr 1fr;
+    justify-content: space-between;
+    height: 711px;
+    margin-top: 40px;
+    margin-right: 98px;
+    gap: 30px;
+}
+
+.title_our_story {
+    grid-area: 2/2/3/3;
+}
+
+.title_experience_vet_clinic {
+    grid-area: 2/2/3/4;
+}
+
+.text_experience_vet_clinic {
+    grid-area: 3/2/4/4;
+    margin-top: -10%;
+    line-height: 133%;
+}
+
+.list_experiance_all {
+    grid-area: 3/2/4/4;
+}
+
+.list_experience {
+    grid-area: 3/2/4/4;
+    list-style-image: url(/assets/images/Icon_dog.png);
+}
+
+.but_know_more {
+    grid-area: 4/2/5/3;
+    width: 268px;
+    margin-top: 5%;
+}
+
+.bg_ellipse_2 {
+    z-index: 1;
+    grid-area: 1/3/5/6;
+    margin-top: -18%;
+}
+
+.shiba_2 {
+    z-index: 5;
+    grid-area: 2/5/5/7;
+}
+
+.yll_side_ball_2 {
+    z-index: 6;
+    grid-area: 2/6/3/7;
+    align-self: center;
+    justify-self: end;
+}
+
+.brown_spring_1 {
+    grid-area: 1/1/2/2;
+}
+
+.zigzag_left,
+.zigzag_right {
+    z-index: 7;
+    justify-self: start;
+    margin-top: -20%;
+}
+
+.zigzag_left {
+    grid-area: 4/5/5/6;
+    margin-left: -25%;
+}
+
+.zigzag_right {
+    grid-area: 4/6/5/7;
+    margin-left: -30%;
+}
+
+.our_team {
+    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 1fr;
+    grid-template-rows: 1fr 8fr;
+    column-gap: 30px;
+    height: 790px;
+    margin-top: 250px;
+}
+
+.title_our_team {
+    grid-area: 1/1/2/7;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.title_meet_groomers {
+    grid-area: 1/1/2/7;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.title_groomers_names {
+    margin-top: -5%;
+}
+
+.title_ceo_founder {
+    margin-top: -5%;
+}
+
+.groom_1 {
+    grid-area: 2/2/3/3;
+}
+
+.groom_2 {
+    grid-area: 2/3/3/4;
+}
+
+.groom_3 {
+    grid-area: 2/4/3/5;
+}
+
+.groom_4 {
+    grid-area: 2/5/3/6;
+}
+
+.bg_for_groomers_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 405px;
+    border-radius: 180px/180px;
+    background: #fff;
+}
+
+.bg_grooms_photo {
+    width: 192px;
+    height: 192px;
+    margin: 15% 5%;
+    border-radius: 50%;
+}
+
+.bg_Mike {
+    background: linear-gradient(180deg, #FFE8BA 0%, #F3B73D 100%);
+    box-shadow: 0px 12px 10px rgba(72, 171, 255, 0.25);
+}
+
+.bg_Amy {
+    background: linear-gradient(180deg, #D5D1FF 0%, #837BDB 100%);
+    box-shadow: 0px 12px 10px rgba(229, 228, 226, 0.3);
+}
+
+.bg_Court {
+    background: linear-gradient(180deg, #FFCCBC 0%, #FFBA7B 100%);
+    box-shadow: 0px 12px 10px rgba(250, 168, 45, 0.3);
+}
+
+.bg_David {
+    background: linear-gradient(180deg, #E1F5FC 0%, #97D2F2 100%);
+    box-shadow: 0px 12px 10px rgba(17, 199, 217, 0.3);
+}
+
+.price {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr 3fr 1fr 4fr 2fr;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.yll_side_ball_3 {
+    grid-area: 1/1/2/2;
+    align-self: end;
+    justify-self: center;
+    margin-top: 200px;
+}
+
+.brown_spring {
+    grid-area: 1/7/2/8;
+    align-self: start;
+    justify-self: start;
+}
+
+.price_item {
+    line-height: 250%;
+}
+
+.date {
+    margin: 5% auto 0 auto;
+}
+
+.mn_butt_5,
+.mn_butt_6,
+.mn_butt_7 {
+    width: 214px;
+    align-self: center;
+}
+
+.butt_purchase {
+    background: #fff;
+}
+
+.card_price {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 743px;
+    width: 485px;
+    padding-top: 15%;
+    align-self: center;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.card_price_1 {
+    grid-area: 1/2/2/4;
+}
+
+.card_price_2 {
+    z-index: 5;
+    grid-area: 1/3/2/6;
+    background: linear-gradient(180deg, #FFA389 0%, #FF6439 100%);
+    height: 843px;
+}
+
+.card_price_3 {
+    grid-area: 1/5/2/7;
+}
+
+.professional_pet_care {
+    grid-template-columns: 100px 4fr 3fr 100px;
+    grid-template-rows: repeat(5, 2fr);
+    height: 521px;
+    width: 1490px;
+    margin-top: 120px;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.title_professional_pet_care {
+    grid-area: 2/2/3/3;
+    color: #000;
+}
+
+.text_professional_pet_care {
+    grid-area: 3/2/4/3;
+    margin-top: -7%;
+    line-height: 133%;
+}
+
+.but_contact_us {
+    width: 221px;
+    grid-area: 4/2/5/3;
+    align-self: start;
+}
+
+.right_block_professional_pet_care {
+    grid-area: 1/3/6/5;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.prof_pet_care_balls {
+    z-index: 5;
+    grid-area: 1/2/2/3;
+    justify-self: end;
+    align-self: end;
+    margin-bottom: -15px;
+}
+
+.bg_ellipce_prof_pet_care {
+    z-index: 1;
+    grid-area: 1/1/4/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.prof_pet_care_dog {
+    z-index: 5;
+    grid-area: 1/1/4/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.prof_pet_care_bark {
+    z-index: 6;
+    grid-area: 2/1/3/2;
+    align-self: center;
+    justify-self: end;
+    margin-right: 25px;
+    margin-top: 25px;
+
+}
+
+.prof_pet_care_spring {
+    z-index: 6;
+    grid-area: 1/1/2/2;
+    align-self: end;
+    justify-self: center;
+}
+
+.footer {
+    grid-area: 3/2/4/3;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    margin: 0 250px 0 250px;
+    line-height: 150%;
+    height: 407px;
+}
+
+.footer_logo {
+    grid-area: 1/1/2/2;
+    align-self: center;
+}
+
+.footer_text {
+    grid-area: 2/1/3/2;
+}
+
+.footer_input {
+    grid-area: 2/1/3/2;
+    align-self: end;
+    height: 60px;
+}
+
+.email {
+    min-height: 62px;
+    width: 397px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    vertical-align: middle;
+}
+
+.submit_email {
+    margin-left: -37%;
+    width: 140px;
+    height: 48px;
+    font-size: 18px;
+    box-shadow: none;
+}
+
+.title_links {
+    grid-area: 1/3/2/4;
+    margin-left: 12%;
+}
+
+.footer_list_links {
+    grid-area: 2/3/3/4;
+    display: flex;
+    flex-direction: column;
+    margin-left: -15%;
+    margin-top: 10%;
+}
+
+.title_contacts {
+    grid-area: 1/2/2/3;
+    margin-left: 14%;
+}
+
+.contacts_list {
+    grid-area: 2/2/3/3;
+}
+
+.title_oppening_hours {
+    grid-area: 1/4/2/5;
+    margin-left: 12%;
+}
+
+.footer_list_openinig_hours {
+    grid-area: 2/4/3/5;
+}
+
+.yll_side_ball_4 {
+    grid-area: 3/4/4/5;
+    align-self: center;
+    justify-self: end;
+}
+
+.footer_copyright {
+    grid-area: 3/1/4/5;
+    margin-top: 120px;
+    justify-self: center;
+}
